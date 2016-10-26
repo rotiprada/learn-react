@@ -1,0 +1,109 @@
+/*Header and Footer*/
+.App-lay {
+  text-align: left;
+}
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 50px !important;
+  width: 50px !important;
+}
+.App-name{
+  font-weight: bold;
+  font-size: 25px;
+  position: absolute;
+  top: 10px;
+  padding-left: 10px;
+}
+.App-header-lay {
+  background-color: #FFC400;
+  height: auto;
+  padding: 1px 0px 1px 10px;
+  color: white;
+  display: inline-grid;
+  clear: left;
+}
+.App-blank{
+  background: #CFD8DC;
+  height: 5px;
+  box-shadow: 10px 10px 10px 5px grey;
+  position: initial;
+}
+.App-intro {
+  font-size: large;
+}
+.App-footer{
+  font-size: 13px;
+  font-weight: bold;
+  background-color: #FFC400 !important;
+  color: black !important;
+  padding: 10px !important;
+  text-align: center;
+  clear: left !important;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/*Navigation*/
+.App-header-nav{
+ background: #F5F5F5;
+ border-bottom: 1px solid #BDBDBD;
+ position: relative;
+}
+.App-menu {
+ margin-left: 5px;
+ padding-left: 0;
+ display: inline;
+  } 
+ .App-menu > li {
+ margin: 5px 0px 5px 0px;
+ padding: 2px;
+ list-style: none;
+ display: inline-block;
+ }
+ .App-menu > li > a{
+  display: inline-block;
+  color: #616161;
+  font-weight: normal;
+  font-size: 15px;
+  text-decoration: none;
+  padding: 6px 10px 2px 6px;
+  border-right: 1px solid #BDBDBD;
+ }.App-menu > li > a:active{
+  color:#616161;
+  background-color: #4FC3F7;
+ }.App-menu > li > a:hover{
+  background-color: #E0E0E0;
+ }
+
+ .App-menu-icon{
+  display: block;
+  text-align: center;
+  font-size: 20px;
+ }
+
+ /*Container*/
+ .content{
+  height: 100%;
+  border: 1px solid grey;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+  float: left;
+  border:2px solid grey;
+ }
+
+/*
+.App-menu > li > a{
+  color: #F5F5F5;
+  font-weight: bold;
+text-decoration: none;
+ background: #03A9F4;
+ padding: 5px;
+ }.App-menu > li > a:active{
+color:black;
+background-color: #0277BD;
+ }
+ */
